@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.logo img{
+    width: 200px;
+    height: auto;
+    
+}
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.banner{
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 33.33%;
+   
+}
+.banner:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background: rgb(200, 241, 124);
+}
+
+.group-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+.group-chat h2{
+    color: black;
+    font-size: 40px;
+    
+}
+.group-chat p{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    border-radius: 30px;
+    padding: 8px 30px;
+    background: rgb(116, 223, 215);
+    color: white;
+}
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+h6{
+    text-align: center;
+    color: rgb(94, 165, 165);
+}
+h3{
+    text-align: center;
+}
+p{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: top;
+    margin-bottom: 40px;
+
+}
+.card{
+    width: 33.33%;
+    border-radius: 8px;
+    overflow-y: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    
+}
+.card img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 0 auto; 
+    width: 80%;
+    
+}
+.card-container:hover{
+    transform: translateY(-5px);
+    box-shadow: rgb(131, 131, 211);
+}
+.form-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-section button{
+    align-items: center;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+
+
+}
+input{
+    padding: 6px;
+    width: 340px;
+    
+}
+.Addresses{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 14px;
+}
+.footer-section{
+    flex-direction: column;
+    display: flex;
+    background: rgb(235, 244, 244);
+    
+}
+.footer p{
+    flex-direction: column;
+    width: 28%;
+
+}
+@media (max-width: 900px){
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-container{
+        flex-direction: column;
+        width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    }
+}
+
+
+
+
+
